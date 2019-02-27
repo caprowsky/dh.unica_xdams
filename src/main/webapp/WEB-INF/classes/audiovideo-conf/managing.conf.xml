@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <element multiMod="true" name="titolo testata/serie">/c/did/unittitle/bibseries/text()</element>
+ <element multiMod="true" name="titolo proprio">/c/did/unittitle/title[@type='proper']/text()</element>
+ <element multiMod="true" name="complemento del titolo">/c/did/unittitle/title[@type='proper']/emph/text()</element>
+ <element multiMod="true" name="titolo attribuito">/c/did/unittitle/text()</element>
+ <element multiMod="true" name="fonte dell'attribuzione">/c/did/unittitle/@label</element>
+ <element name="Varianti del titolo" prefix="/c/did/unittitle/title[@altrender='variant']">
+  <element multiMod="true" name="variante">/c/did/unittitle/title[@altrender='variant']/text()</element>
+  <element multiMod="true" name="tipologia del titolo variante">/c/did/unittitle/title[@altrender='variant']/@type</element>
+ </element>
+ <element multiMod="true" name="edizione / versione">/c/did/unittitle/edition/text()</element>
+ <element multiMod="true" name="stato della digitalizzazione">/c/altformavail/p/text()</element>
+ <element multiMod="true" name="note tecniche (file digitale)">/c/did/physdesc[@label='digital object']/archref/note/p/text()</element>
+ <element multiMod="true" name="titolo proprio della copia (file digitale)">/c/did/physdesc[@label='digital object']/archref/unittitle/title/text()</element>
+ <element multiMod="true" name="edizione (file digitale)">/c/did/physdesc[@label='digital object']/archref/unittitle/edition/text()</element>
+ <element name="pellicola" prefix="/c/did/physdesc[@label='film']">
+  <element multiMod="true" name="nota all'unità di conservazione (pellicola)">/c/did/physdesc[@label='film']/archref/container/emph[@altrender='note']/text()</element>
+  <element multiMod="true" name="collocazione (pellicola)">/c/did/physdesc[@label='film']/archref/physloc/text()</element>
+  <element multiMod="true" name="note tecniche (pellicola)">/c/did/physdesc[@label='film']/archref/note/p/text()</element>
+  <element multiMod="true" name="titolo proprio della copia (pellicola)">/c/did/physdesc[@label='film']/archref/unittitle/title/text()</element>
+  <element multiMod="true" name="edizione (pellicola)">/c/did/physdesc[@label='film']/archref/unittitle/edition/text()</element>
+ </element>
+ <element name="supporto video" prefix="/c/did/physdesc[@label='video']">
+  <element multiMod="true" name="nota all'unità di conservazione (video)">/c/did/physdesc[@label='video']/archref/container/emph[@altrender='note']/text()</element>
+  <element multiMod="true" name="collocazione (video)">/c/did/physdesc[@label='video']/archref/physloc/text()</element>
+  <element multiMod="true" name="note tecniche (video)">/c/did/physdesc[@label='video']/archref/note/p/text()</element>
+  <element multiMod="true" name="titolo proprio della copia (video)">/c/did/physdesc[@label='video']/archref/unittitle/title/text()</element>
+  <element multiMod="true" name="edizione (video)">/c/did/physdesc[@label='video']/archref/unittitle/edition/text()</element>
+ </element>
+ <element multiMod="true" name="collocazione (livelli alti)">/c/did/physloc/text()</element>
+ <element multiMod="true" name="note biografiche (livelli alti)">/c/bioghist/p/text()</element>
+ <element multiMod="true" name="criteri di ordinamento (livelli alti)">/c/arrangement/p/text()</element>
+ <element multiMod="true" name="storia archivistica (livelli alti)">/c/custodhist/p/text()</element>
+ <element multiMod="true" name="abstract">/c/did/abstract/text()</element>
+ <element multiMod="true" name="notizie storico-critiche">/c/scopecontent/p/text()</element>
+ <element name="soggetto/argomento" prefix="/c/controlaccess[child::head/text()='access points']/subject">
+  <element multiMod="true" name="soggetto/argomento">/c/controlaccess[child::head/text()='access points']/subject/text()</element>
+  <element multiMod="true" name="integrazione al soggetto/argomento">/c/controlaccess[child::head/text()='access points']/subject/emph/text()</element>
+ </element>
+ <element name="Sequenze" prefix="/c/scopecontent/list/item">
+  <element multiMod="" name="numero">/c/scopecontent/list/item/num/text()</element>
+  <element multiMod="true" name="descrizione sequenze">/c/scopecontent/list/item/text()</element>
+  <element multiMod="true" name="note sequenze">/c/scopecontent/list/item/note/p/text()</element>
+  <element multiMod="" name="time code: iniziale">/c/scopecontent/list/item/extref[@role='start']/text()</element>
+  <element multiMod="" name="time code: finale">/c/scopecontent/list/item/extref[@role='end']/text()</element>
+ </element>
+ <element multiMod="true" name="condizione giuridica">/c/accessrestrict/legalstatus/text()</element>
+ <element multiMod="true" name="acquisizione del materiale">/c/acqinfo/p/text()</element>
+ <element multiMod="true" name="modalità di consultazione">/c/accessrestrict/p/text()</element>
+ <element multiMod="true" name="copyright">/c/userestrict/p/text()</element>
+ <element multiMod="true" name="documentazione collegata">/c/relatedmaterial/p/text()</element>
+ <element multiMod="true" name="fonti archivistiche">/c/bibliography/archref/text()</element>
+ <element multiMod="true" name="note">/c/note/p/text()</element>
+ <element multiMod="true" name="nota dell'archivista">/c/processinfo/note/p/text()</element>
+</root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <element multiMod="true" name="Storia">/eac-cpf/cpfDescription/description/biogHist/p/text()</element>
+ <element name="luoghi" prefix="/eac-cpf/cpfDescription/description/places/place">
+  <element multiMod="true" name="luogo - denominazione">/eac-cpf/cpfDescription/description/places/place/placeEntry/text()</element>
+  <element multiMod="true" name="luogo - tipo di relazione">/eac-cpf/cpfDescription/description/places/place/descriptiveNote/p/text()</element>
+  <element multiMod="true" name="luogo - data">/eac-cpf/cpfDescription/description/places/place/date/text()</element>
+ </element>
+ <element multiMod="true" name="funzioni, occupazioni e attività">/eac-cpf/cpfDescription/description/functions/p/text()</element>
+ <element multiMod="true" name="mandato/fonti normative">/eac-cpf/cpfDescription/description/mandates/p/text()</element>
+ <element multiMod="true" name="contesto sociale e culturale">/eac-cpf/cpfDescription/description/generalContext/p/text()</element>
+ <element multiMod="true" name="condizione giuridica">/eac-cpf/cpfDescription/description/legalStatus/term/text()</element>
+ <element multiMod="true" name="condizione giuridica - descrizione">/eac-cpf/cpfDescription/description/legalStatus/descriptiveNote/p/text()</element>
+ <element multiMod="true" name="condizione giuridica - data">/eac-cpf/cpfDescription/description/legalStatus/date/text()</element>
+ <element multiMod="true" name="struttura amministrativa/genealogia">/eac-cpf/cpfDescription/description/structureOrGenealogy/p/text()</element>
+ <element multiMod="true" name="stato">/eac-cpf/control/maintenanceStatus/text()</element>
+ <element multiMod="true" name="livello di completezza">/eac-cpf/control/localControl[@localType='detailLevel']/term/text()</element>
+ <element multiMod="true" name="norma">/eac-cpf/control/conventionDeclaration/citation/text()</element>
+ <element multiMod="true" name="nota norma">/eac-cpf/control/conventionDeclaration/descriptiveNote/p/text()</element>
+ <element multiMod="true" name="fonti">/eac-cpf/control/sources/source/sourceEntry/text()</element>
+ <element multiMod="true" name="informazioni redazionali">/eac-cpf/control/sources/maintenanceAgency/descriptiveNote/p/text()</element>
+</root>

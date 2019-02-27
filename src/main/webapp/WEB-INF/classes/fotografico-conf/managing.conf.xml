@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <element multiMod="true" name="titolo attribuito (SGLA)">/c/did/unittitle[@encodinganalog='SGLA']/text()</element>
+ <element multiMod="true" name="titolo proprio (SGLT)">/c/did/unittitle[@encodinganalog='SGLA']/title[@encodinganalog='SGLT']/text()</element>
+ <element multiMod="true" name="denominazione del contenitore (LDCN)">/c/did/physloc[@encodinganalog='LDCN']/text()</element>
+ <element multiMod="true" name="specifiche (LDCS)">/c/did/physloc[@encodinganalog='LDCS']/text()</element>
+ <element multiMod="true" name="nota all'unità di conservazione">/c/did/container[@encodinganalog='UBFC']/emph/text()</element>
+ <element multiMod="true" name="indicazioni generali sul soggetto (SGTD)">/c/did/physdesc[@encodinganalog='MT' and @label='general']/subject/text()</element>
+ <element name="dati specifici" prefix="/c/did/physdesc[@encodinganalog='MT' and @label='specific']">
+  <element multiMod="true" name="note tecniche (MTS)">/c/did/physdesc[@encodinganalog='MT' and @label='specific']/physfacet[@encodinganalog='MTS' and @type='note']/text()</element>
+  <element multiMod="true" name="indicazioni specifiche sul soggetto (SGTD)">/c/did/physdesc[@encodinganalog='MT' and @label='specific']/subject/text()</element>
+ </element>
+ <element name="caratteristiche foto virtuali" prefix="/c/did/physdesc[@encodinganalog='FVC' and @label='specific']">
+  <element multiMod="true" name="indicazioni sul soggetto della foto virtuale (SGTD)">/c/did/physdesc[@encodinganalog='FVC' and @label='specific']/subject/text()</element>
+ </element>
+ <element multiMod="true" name="indicazioni sull'oggetto fotografico (DSO)">/c/odd[@encodinganalog='DSO']/p/text()</element>
+ <element multiMod="true" name="notizie storico-critiche (NSC)">/c/odd[@encodinganalog='NSC']/p/text()</element>
+ <element multiMod="true" name="iscrizioni (ISR)">/c/scopecontent[@encodinganalog='ISR']/p/text()</element>
+ <element multiMod="true" name="stemmi/timbri/marchi (STM)">/c/odd[@encodinganalog='STM']/p/text()</element>
+ <element multiMod="true" name="osservazioni (OSS)">/c/odd[@encodinganalog='OSS']/p/text()</element>
+ <element prefix="/c/controlaccess/subject">
+  <element multiMod="true" name="temi">/c/controlaccess/subject/text()</element>
+ </element>
+ <element multiMod="true" name="condizione giuridica (CDG)">/c/descgrp[@encodinganalog='TU']/accessrestrict/legalstatus[@id='CDG']/text()</element>
+ <element multiMod="true" name="acquisizione del materiale (ACQ)">/c/descgrp[@encodinganalog='TU']/acqinfo[@encodinganalog='ACQ']/p/text()</element>
+ <element multiMod="true" name="restrizioni di accesso (NVC)">/c/descgrp[@encodinganalog='TU']/accessrestrict/accessrestrict[@encodinganalog='NVC']/p/text()</element>
+ <element multiMod="true" name="storia della condizione (ALN-ESP)">/c/descgrp[@encodinganalog='TU']/custodhist[@encodinganalog='ALN-ESP']/p/text()</element>
+ <element multiMod="true" name="copyright (CPR)">/c/descgrp[@encodinganalog='TU']/userestrict[@encodinganalog='CPR']/p/text()</element>
+ <element multiMod="true" name="riferimento altre schede (RSE)">/c/relatedmaterial[@encodinganalog='RSE']/p/text()</element>
+ <element multiMod="true" name="Fonti archivistiche (FNT)">/c/bibliography[@encodinganalog='FNT']/archref/text()</element>
+ <element multiMod="true" name="testo libero (BIB)">/c/bibliography[@encodinganalog='BIB']/p/text()</element>
+ <element multiMod="true" name="note redazionali">/c/processinfo/note/p/text()</element>
+ <element multiMod="true" name="funzionario responsabile">/c/processinfo/p/persname/text()</element>
+</root>

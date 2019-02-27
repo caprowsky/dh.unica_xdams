@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+ <elemento name="pne">
+  <opzione value=""></opzione>
+  <opzione value="c">EAD standard "c"</opzione>
+  <opzione value="eac">EAC standard "eac"</opzione>
+  <opzione value="eac-cpf">EAC standard "eac-cpf"</opzione>
+  <opzione value="lido">Lido standard "lido"</opzione>
+  <opzione value="mods">Biblioteca "mods"</opzione>
+  <opzione value="user">Users "user"</opzione>
+  <opzione value="account">Account "account"</opzione>
+ </elemento>
+ <elemento name="ico">
+  <opzione value=""></opzione>
+  <opzione value="user.gif">user</opzione>
+  <opzione value="storico.gif">Archivio Storico</opzione>
+  <opzione value="video.gif">Archivio AudioVideo</opzione>
+  <opzione value="fotografico.gif">Archivio Fotografico</opzione>
+  <opzione value="authority.gif">Authority</opzione>
+  <opzione value="disegni.gif">Iconografia / Archivio Oggetti Museali</opzione>
+  <opzione value="biblioteca.gif">Biblioteca</opzione>
+ </elemento>
+ <elemento name="ROLE_ACCOUNT">
+  <opzione value=""></opzione>
+  <opzione value="ROLE_ADMIN">amministrazione di sistema</opzione>
+  <opzione value="ROLE_USER">utente di sistema</opzione>
+  <opzione value="ROLE_READER">lettore di sistema</opzione>
+ </elemento> 
+ <elemento name="ROLE_ARCHIVE">
+  <opzione value=""></opzione>
+  <opzione value="1">amministrazione archivio</opzione>
+  <opzione value="2">archivista</opzione>
+  <opzione value="3">lettore</opzione>
+ </elemento>  
+</root>

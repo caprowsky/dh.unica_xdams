@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+ <multiEditing method="archive:getType">
+  <upload value="xDamsHist">
+   <file name="/storico-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsPhoto">
+   <file name="/fotografico-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsHGeo">
+   <file name="/auther-luoghi-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsEACCPF">
+   <file name="/eac-cpf-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsAV">
+   <file name="/audiovideo-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsOA">
+   <file name="/iconografico-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsUsers">
+   <file name="/users-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsBiblio">
+   <file name="/biblio-conf/upload.conf.xml"/>
+  </upload>
+  <upload value="xDamsLido">
+   <file name="/lido-conf/upload.conf.xml"/>
+  </upload>  
+ </multiEditing>
+</root>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <element multiMod="true" input_type="text" name="numero di ordinamento definitivo (livelli inferiori)" class="Short">/c/did/unittitle[@encodinganalog='ISAD 1 - 2 title']/num[@type='ordinamento']/text()</element>
+</root>

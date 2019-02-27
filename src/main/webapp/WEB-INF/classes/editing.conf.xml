@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <multiEditing method="archive:getType">
+  <docEdit value="xDamsHist">
+   <file name="/storico-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsPhoto">
+   <file name="/fotografico-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsHGeo">
+   <file name="/auther-luoghi-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsEACCPF">
+   <file name="/eac-cpf-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsAV">
+   <file name="/audiovideo-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsOA">
+   <file name="/iconografico-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsUsers">
+   <file name="/users-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsBiblio">
+   <file name="/biblio-conf/editing.conf.xml"/>
+  </docEdit>
+  <docEdit value="xDamsLido">
+   <file name="/lido-conf/editing.conf.xml"/>
+  </docEdit>  
+ </multiEditing>
+</root>

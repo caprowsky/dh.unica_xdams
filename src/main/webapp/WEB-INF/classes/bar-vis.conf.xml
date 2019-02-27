@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <multiEditing method="archive:getType">
+  <managing value="xDamsHist">
+   <file name="/storico-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsPhoto">
+   <file name="/fotografico-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsHGeo">
+   <file name="/auther-luoghi-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsEACCPF">
+   <file name="/eac-cpf-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsAV">
+   <file name="/audiovideo-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsOA">
+   <file name="/iconografico-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsUsers">
+   <file name="/users-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsBiblio">
+   <file name="/biblio-conf/bar-vis.conf.xml"/>
+  </managing>
+  <managing value="xDamsLido">
+   <file name="/lido-conf/bar-vis.conf.xml"/>
+  </managing>  
+ </multiEditing>
+</root>

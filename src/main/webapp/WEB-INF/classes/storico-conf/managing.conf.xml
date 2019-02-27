@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <element multiMod="true" name="num. ord. definitivo (livelli inferiori)">/c/did/unittitle[@encodinganalog='ISAD 3-1-2 title']/num[@type='ordinamento']/text()</element>
+ <element multiMod="true" name="titolario di classificazione">/c/descgrp[@type='codici e numerazioni']/fileplan/p/text()</element>
+ <element multiMod="true" name="segnatura antica o originaria">/c/descgrp[@type='codici e numerazioni']/odd[@type='segnatura antica o originaria']/p/text()</element>
+ <element multiMod="true" name="integrazione alla segnatura antica o originaria">/c/descgrp[@type='codici e numerazioni']/odd[@type='segnatura antica o originaria']/note/p/text()</element>
+ <element multiMod="true" name="segnatura precedente">/c/descgrp[@type='codici e numerazioni']/odd[@type='segnatura precedente']/p/text()</element>
+ <element multiMod="true" name="integrazione alla segnatura precedente">/c/descgrp[@type='codici e numerazioni']/odd[@type='segnatura precedente']/note/p/text()</element>
+ <element name="segnatura attuale" prefix="/c/did/container[@label='posizione fisica']">
+  <element multiMod="true" name="segnatura attuale - tipo">/c/did/container[@label='posizione fisica']/@type</element>
+  <element multiMod="true" name="segnatura attuale - valore">/c/did/container[@label='posizione fisica']/text()</element>
+ </element>
+ <element multiMod="true" name="titolo">/c/did/unittitle[@encodinganalog='ISAD 3-1-2 title']/text()</element>
+ <element multiMod="true" name="integrazione al titolo">/c/did/unittitle[@encodinganalog='ISAD 3-1-2 title']/emph/text()</element>
+ <element prefix="/c/did/unittitle[@encodinganalog='ISAD 3-1-2 title']/title[@type='altra denominazione']">
+  <element multiMod="true" name="altra denominazione (livelli alti)">/c/did/unittitle[@encodinganalog='ISAD 3-1-2 title']/title[@type='altra denominazione']/text()</element>
+ </element>
+ <element multiMod="true" name="integrazione alla data">/c/did/unittitle[@encodinganalog='ISAD 3-1-2 title']/unitdate[@encodinganalog='ISAD 3-1-3 date(s)']/emph/text()</element>
+ <element multiMod="true" name="data topica">/c/did/unittitle[@encodinganalog='ISAD 3-1-2 title']/geogname/text()</element>
+ <element name="consistenza" prefix="/c/did/physdesc[@encodinganalog='ISAD 3-1-5 extent and medium of the unit of description' and @label='content']">
+  <element multiMod="true" name="consistenza">/c/did/physdesc[@encodinganalog='ISAD 3-1-5 extent and medium of the unit of description' and @label='content']/extent/text()</element>
+  <element multiMod="true" name="integrazione alla descrizione (livelli inferiori)">/c/did/physdesc[@encodinganalog='ISAD 3-1-5 extent and medium of the unit of description' and @label='content']/physfacet[@type='note']/text()</element>
+ </element>
+ <element multiMod="true" name="collocazione">/c/did/physloc/text()</element>
+ <element multiMod="true" name="storia istituzionale/amministrativa, nota biografica">/c/descgrp[@encodinganalog='ISAD 3-2 context area']/bioghist[@encodinganalog='ISAD 3-2-2 administrative - biographical history']/p/text()</element>
+ <element multiMod="true" name="storia archivistica">/c/descgrp[@encodinganalog='ISAD 3-2 context area']/custodhist[@encodinganalog='ISAD 3-2-3 archival history']/p/text()</element>
+ <element multiMod="true" name="modalità di acquisizione">/c/descgrp[@encodinganalog='ISAD 3-2 context area']/acqinfo[@encodinganalog='ISAD 3-2-4 immediate source of acquisition or transfer']/p/text()</element>
+ <element multiMod="true" name="ambiti e contenuto">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/p/text()</element>
+ <element name="materiale a stampa allegato" prefix="/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Materiale a stampa allegato']/item">
+  <element multiMod="true" name="materiale a stampa allegato - note (livelli inferiori)">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Materiale a stampa allegato']/item/bibref/text()</element>
+ </element>
+ <element name="materiale cartografico allegato" prefix="/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Materiale cartografico allegato']/item">
+  <element multiMod="true" name="materiale cartografico allegato - descrizione del contenuto (livelli inferiori)">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Materiale cartografico allegato']/item/text()</element>
+  <element multiMod="true" name="materiale cartografico allegato - note (livelli inferiori)">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Materiale cartografico allegato']/item/note/p/text()</element>
+ </element>
+ <element name="altri allegati" prefix="/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Altri allegati']/item">
+  <element multiMod="true" name="altri allegati - descrizione del contenuto (livelli inferiori)">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Altri allegati']/item/text()</element>
+  <element multiMod="true" name="altri allegati - note (livelli inferiori)">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/scopecontent[@encodinganalog='ISAD 3-3-1 scope and content']/list[child::head/text()='Altri allegati']/item/note/p/text()</element>
+ </element>
+ <element multiMod="true" name="procedure, tempi e criteri di valutazione e scarto">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/appraisal[@encodinganalog='ISAD 3-3-2 appraisal, destruction and scheduling information']/p/text()</element>
+ <element multiMod="true" name="incrementi previsti">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/accruals[@encodinganalog='ISAD 3-3-3 accruals']/p/text()</element>
+ <element multiMod="true" name="criteri di ordinamento">/c/descgrp[@encodinganalog='ISAD 3-3 content and structure area']/arrangement[@encodinganalog='ISAD 3-3-4 system of arrangement']/p/text()</element>
+ <element name="soggetto/argomento" prefix="/c/controlaccess/subject">
+  <element multiMod="true" name="soggetto/argomento">/c/controlaccess/subject/text()</element>
+ </element>
+ <element multiMod="true" name="condizioni che regolano l'accesso">/c/descgrp[@encodinganalog='ISAD 3-4 conditions of access and use area']/accessrestrict[@encodinganalog='ISAD 3-4-1 conditions governing access']/p/text()</element>
+ <element multiMod="true" name="condizioni di riproduzione e copyright">/c/descgrp[@encodinganalog='ISAD 3-4 conditions of access and use area']/userestrict[@encodinganalog='ISAD 3-4-2 conditions governing reproduction']/p/text()</element>
+ <element multiMod="true" name="lingua della documentazione">/c/did/langmaterial[@encodinganalog='ISAD 3-4-3 language-scripts of material']/text()</element>
+ <element multiMod="true" name="note alle caratteristiche materiali">/c/descgrp[@encodinganalog='ISAD 3-4 conditions of access and use area']/phystech[@encodinganalog='ISAD 3-4-4 physical characteristics and technical requirements']/note/p/text()</element>
+ <element multiMod="true" name="strumenti di ricerca">/c/descgrp[@encodinganalog='ISAD 3-4 conditions of access and use area']/otherfindaid[@encodinganalog='ISAD 3-4-5 finding aids']/p/text()</element>
+ <element multiMod="true" name="esistenza e localizzazione degli originali">/c/descgrp[@encodinganalog='ISAD 3-5 allied materials area']/originalsloc[@encodinganalog='ISAD 3-5-1 existence and location of originals']/p/text()</element>
+ <element multiMod="true" name="esistenza e localizzazione dei copie">/c/descgrp[@encodinganalog='ISAD 3-5 allied materials area']/altformavail[@encodinganalog='ISAD 3-5-2 existence and location of copies']/p/text()</element>
+ <element multiMod="true" name="unità di descrizione collegate">/c/descgrp[@encodinganalog='ISAD 3-5 allied materials area']/relatedmaterial[@encodinganalog='ISAD 3-5-3 related units of description']/p/text()</element>
+ <element multiMod="true" name="unità di descrizione separate">/c/descgrp[@encodinganalog='ISAD 3-5 allied materials area']/separatedmaterial[@encodinganalog='ISAD 3-5-3 related units of description']/p/text()</element>
+ <element multiMod="true" name="note">/c/note[@encodinganalog='ISAD 3-6-1 note']/p/text()</element>
+ <element multiMod="true" name="nota dell'archivista">/c/processinfo/note[@encodinganalog='ISAD 3-7-1 archivist note']/p/text()</element>
+</root>

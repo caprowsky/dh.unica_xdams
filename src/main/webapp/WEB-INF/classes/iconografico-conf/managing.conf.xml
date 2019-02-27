@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+ <element multiMod="true" name="OGTD - definizione">/c/did/materialspec[@encodinganalog='OGTD']/text()</element>
+ <element multiMod="true" name="OGTT - tipologia">/c/did/materialspec[@encodinganalog='OGTD']/materialspec[@encodinganalog='OGTT']/text()</element>
+ <element multiMod="true" name="OGTN - denominazione">/c/did/materialspec[@encodinganalog='OGTD']/title[@encodinganalog='OGTN']/text()</element>
+ <element multiMod="true" name="SGTI - identificazione">/c/did/unittitle[@encodinganalog='SGTI']/text()</element>
+ <element multiMod="true" name="SGTT - titolo">/c/did/unittitle[@encodinganalog='SGTI']/title[@encodinganalog='SGTT']/text()</element>
+ <element multiMod="true" name="CMMN - nome">/c/bioghist[@encodinganalog='CMM']/chronlist/chronitem/event/name/text()</element>
+ <element multiMod="true" name="CMMC - circostanza">/c/bioghist[@encodinganalog='CMM']/chronlist/chronitem/event/text()</element>
+ <element multiMod="true" name="LDCS - specifiche localizzazione">/c/did/physloc[@encodinganalog='LDC']/emph/text()</element>
+ <element name="MTC - materie e tecniche" prefix="/c/did/physdesc[@encodinganalog='MT']/genreform[@encodinganalog='MTC']">
+  <element multiMod="true" name="materia e tecnica">/c/did/physdesc[@encodinganalog='MT']/genreform[@encodinganalog='MTC']/text()</element>
+ </element>
+ <element multiMod="true" name="STCS - specifiche sullo stato di conservazione">/c/phystech[@encodinganalog='STC']/note/p/text()</element>
+ <element multiMod="true" name="STCM - modalità di conservazione (OAC)">/c/phystech[@encodinganalog='STC']/phystech[@encodinganalog='STCM']/p/text()</element>
+ <element name="RST - interventi di restauro" prefix="/c/phystech[@encodinganalog='RST']/chronlist/chronitem">
+  <element multiMod="true" name="RSTS - situazione">/c/phystech[@encodinganalog='RST']/chronlist/chronitem/event/emph/text()</element>
+  <element multiMod="true" name="descrizione intervento di restauro">/c/phystech[@encodinganalog='RST']/chronlist/chronitem/event/text()</element>
+ </element>
+ <element multiMod="true" name="DESO - descrizione dell'oggetto">/c/descgrp[@encodinganalog='DA']/odd[@encodinganalog='DESO']/p/text()</element>
+ <element multiMod="true" name="DESS - descrizione del soggetto">/c/descgrp[@encodinganalog='DA']/scopecontent[@encodinganalog='DESS']/p/text()</element>
+ <element multiMod="true" name="NSC - notizie storico-critiche">/c/descgrp[@encodinganalog='DA']/odd[@encodinganalog='NSC']/p/text()</element>
+ <element multiMod="true" name="ISR - iscrizioni">/c/descgrp[@encodinganalog='DA']/scopecontent[@encodinganalog='ISR']/p/text()</element>
+ <element multiMod="true" name="STM - stemmi, emblemi, marchi">/c/descgrp[@encodinganalog='DA']/odd[@encodinganalog='STM']/p/text()</element>
+ <element multiMod="true" name="stima">/c/odd[@encodinganalog='STI']/p/text()</element>
+ <element multiMod="true" name="CDG - condizione giuridica">/c/descgrp[@encodinganalog='TU']/accessrestrict/legalstatus[@id='CDG']/text()</element>
+ <element multiMod="true" name="ACQ - acquisizione del materiale">/c/descgrp[@encodinganalog='TU']/acqinfo[@encodinganalog='ACQ']/p/text()</element>
+ <element multiMod="true" name="NVC - provvedimenti di tutela">/c/descgrp[@encodinganalog='TU']/accessrestrict/accessrestrict[@encodinganalog='NVC']/p/text()</element>
+ <element multiMod="true" name="ALN - mutamenti della condizione giuridica o materiale">/c/descgrp[@encodinganalog='TU']/custodhist[@encodinganalog='ALN']/p/text()</element>
+ <element multiMod="true" name="ESP - esportazioni">/c/descgrp[@encodinganalog='TU']/odd[@encodinganalog='ESP']/p/text()</element>
+ <element multiMod="true" name="CPR - copyright">/c/descgrp[@encodinganalog='TU']/userestrict[@encodinganalog='CPR']/p/text()</element>
+ <element multiMod="true" name="Fonti archivistiche">/c/bibliography[@encodinganalog='FNT']/archref/text()</element>
+ <element multiMod="true" name="BIL - citazione completa">/c/bibliography[@encodinganalog='BIB']/p/text()</element>
+ <element prefix="/c/controlaccess/subject">
+  <element multiMod="true" name="soggetti / temi">/c/controlaccess/subject/text()</element>
+ </element>
+ <element prefix="/c/controlaccess/name">
+  <element multiMod="true" name="classificazione oggetto">/c/controlaccess/name/text()</element>
+ </element>
+ <element multiMod="true" name="osservazioni">/c/note[@encodinganalog='AN']/p/text()</element>
+ <element multiMod="true" name="funzionario responsabile">/c/processinfo/p/persname/text()</element>
+</root>
